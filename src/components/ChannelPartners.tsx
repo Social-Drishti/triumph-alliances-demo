@@ -142,7 +142,7 @@ export default function ChannelPartners() {
                 </h2>
               </div>
               <p className="text-xl sm:text-2xl text-gray-600 leading-relaxed font-sans font-light">
-                By registering with Triumph Alliances, you gain immediate, transparent inventory updates across Andheri, Worli, Thane, and Mulund project sites.
+                By registering with Triumph Alliances, you gain immediate, transparent inventory updates across Mumbai project sites in Andheri, Malad, Worli, and other micromarkets.
               </p>
 
               <div className="space-y-5 pt-2">
@@ -245,7 +245,7 @@ export default function ChannelPartners() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        placeholder="e.g. +91 9876543210"
+                        placeholder="e.g. +91 9000000000"
                         className="w-full px-5 py-3.5 bg-brand-offwhite border border-gray-200 rounded-sm focus:outline-none focus:border-brand-navy text-base font-sans font-light transition-all"
                       />
                     </div>

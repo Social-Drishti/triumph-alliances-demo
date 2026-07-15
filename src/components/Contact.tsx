@@ -60,7 +60,7 @@ export default function Contact() {
                 Get Direct Support from Our Strategy Leads
               </h2>
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed font-sans font-light">
-                Our central office is located near the Andheri East business hub, offering convenient connectivity for developers and corporate investors across Mumbai.
+                Our central office is located at Auris Galleria in Malad West, offering convenient connectivity for developers and investors across Mumbai.
               </p>
             </div>
 
@@ -73,7 +73,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-accent font-medium text-lg text-brand-navy leading-none">Office Address</h4>
                   <p className="text-base sm:text-lg text-gray-500 mt-2 font-light leading-relaxed">
-                    804, Signature Business Park, Near Andheri Metro Station, Andheri East, Mumbai, Maharashtra 400069
+                    307, Auris Galleria, Link Road, Malad West, Mumbai
                   </p>
                 </div>
               </div>
@@ -85,9 +85,9 @@ export default function Contact() {
                 <div>
                   <h4 className="font-accent font-medium text-lg text-brand-navy leading-none">Phone Coordinates</h4>
                   <p className="text-base sm:text-lg text-gray-500 mt-2 font-light leading-relaxed">
-                    Main Hotline: <a href="tel:+919876543210" className="hover:text-brand-teal transition-colors font-medium">+91 98765 43210</a>
+                    Main: <a href="tel:+919004643308" className="hover:text-brand-teal transition-colors font-medium">+91 90046 43308</a>
                     <br />
-                    Channel Support: <a href="tel:+919876543211" className="hover:text-brand-teal transition-colors font-medium">+91 98765 43211</a>
+                    Sales: <a href="tel:+919372156733" className="hover:text-brand-teal transition-colors font-medium">+91 93721 56733</a>
                   </p>
                 </div>
               </div>
@@ -99,9 +99,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-accent font-medium text-lg text-brand-navy leading-none">Email Coordinates</h4>
                   <p className="text-base sm:text-lg text-gray-500 mt-2 font-light leading-relaxed">
-                    General: <a href="mailto:info@triumphalliances.com" className="hover:text-brand-teal transition-colors font-medium">info@triumphalliances.com</a>
-                    <br />
-                    Media: <a href="mailto:media@triumphalliances.com" className="hover:text-brand-teal transition-colors font-medium">media@triumphalliances.com</a>
+                    <a href="mailto:contact@triumphalliances.com" className="hover:text-brand-teal transition-colors font-medium">contact@triumphalliances.com</a>
                   </p>
                 </div>
               </div>
@@ -153,7 +151,7 @@ export default function Contact() {
                 </div>
                 <h4 className="font-accent font-medium text-lg text-brand-navy">Consultation Scheduled!</h4>
                 <p className="text-sm text-gray-600 font-sans font-light max-w-md mx-auto leading-relaxed">
-                  Thank you for booking. Your inquiry details have been forwarded to Vinay Dangodra's strategy office. We will contact you within 2 hours to confirm calendar availability.
+                  Thank you for booking. Your inquiry details have been received by our strategy team. We will contact you within 2 hours to confirm calendar availability.
                 </p>
               </motion.div>
             ) : (
@@ -167,7 +165,7 @@ export default function Contact() {
                       name="name"
                       value={formData.name}
                       onChange={handleInputChange}
-                      placeholder="e.g. Vinay Dangodra"
+                      placeholder="e.g. Rahul Mehta"
                       className="w-full px-5 py-4 bg-white border border-gray-200 focus:outline-none focus:border-brand-navy text-base transition-all font-sans font-light"
                     />
                   </div>
@@ -179,7 +177,7 @@ export default function Contact() {
                       name="developerName"
                       value={formData.developerName}
                       onChange={handleInputChange}
-                      placeholder="e.g. Singhania Realty"
+                      placeholder="e.g. Your Developer Company"
                       className="w-full px-5 py-4 bg-white border border-gray-200 focus:outline-none focus:border-brand-navy text-base transition-all font-sans font-light"
                     />
                   </div>
@@ -194,7 +192,7 @@ export default function Contact() {
                       name="email"
                       value={formData.email}
                       onChange={handleInputChange}
-                      placeholder="e.g. vinay@singhaniarealty.com"
+                      placeholder="e.g. rahul@yourcompany.com"
                       className="w-full px-5 py-4 bg-white border border-gray-200 focus:outline-none focus:border-brand-navy text-base transition-all font-sans font-light"
                     />
                   </div>
@@ -207,7 +205,7 @@ export default function Contact() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleInputChange}
-                      placeholder="e.g. +91 9876543210"
+                      placeholder="e.g. +91 9000000000"
                       className="w-full px-5 py-4 bg-white border border-gray-200 focus:outline-none focus:border-brand-navy text-base transition-all font-sans font-light"
                     />
                   </div>
@@ -221,10 +219,10 @@ export default function Contact() {
                     onChange={handleInputChange}
                     className="w-full px-5 py-4 bg-white border border-gray-200 focus:outline-none focus:border-brand-navy text-base transition-all font-sans font-light"
                   >
-                    <option>Sales Strategy Execution (Direct Mandate)</option>
-                    <option>Creative & Digital Marketing Suite</option>
-                    <option>Channel Partner Network (3,500+ Brokers)</option>
-                    <option>Stalled Project Liquidation Assessment</option>
+                    <option>End-to-End Sales Management</option>
+                    <option>In-House Creative & Digital Marketing</option>
+                    <option>Channel Partner Activation (3,500+ Brokers)</option>
+                    <option>Manpower & Site Support</option>
                     <option>General Corporate Inquiry</option>
                   </select>
                 </div>
@@ -237,7 +235,7 @@ export default function Contact() {
                     rows={4}
                     value={formData.message}
                     onChange={handleInputChange}
-                    placeholder="Provide details like: Mulund West, 120 Units remaining, looking to revive interest..."
+                    placeholder="Provide details like: Project location, number of units, current status..."
                     className="w-full px-5 py-4 bg-white border border-gray-200 focus:outline-none focus:border-brand-navy text-base transition-all font-sans font-light"
                   />
                 </div>
@@ -258,7 +256,7 @@ export default function Contact() {
       {/* Embedded Location Map */}
       <section className="h-96 w-full relative bg-gray-100 overflow-hidden">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.7997931343714!2d72.8596645!3d19.1175116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c83c2a303107%3A0xbd9c99ec9d22debf!2sAndheri!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.2!2d72.8401!3d19.1868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63f5e5d5e5d%3A0x1234567890abcdef!2sMalad%20West!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0 }}
@@ -272,7 +270,7 @@ export default function Contact() {
         <div className="absolute bottom-6 left-6 bg-brand-navy text-white p-5 max-w-sm hidden md:block text-left">
           <p className="font-accent font-medium text-sm text-white uppercase tracking-wider">Triumph Boardroom</p>
           <p className="text-xs text-gray-300 mt-2 font-sans font-light leading-relaxed">
-            Signature Business Park, Level 8, Adjacent to Andheri East Subway metro hub, Mumbai 400069
+            Auris Galleria, Level 3, Link Road, Malad West, Mumbai
           </p>
         </div>
       </section>

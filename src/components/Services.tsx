@@ -23,7 +23,7 @@ export default function Services({ openConsultation }: ServicesProps) {
             Complete Solutions for Real Estate Developers
           </h1>
           <p className="text-xl sm:text-2xl lg:text-3xl text-gray-300 font-sans font-light leading-relaxed max-w-4xl">
-            Eliminating fragmented agencies. We integrate sales advisory, high-intent lead acquisition, channel broker networks, and on-site closing manpower.
+            Eliminating fragmented agencies. We integrate sales execution, in-house creative and digital marketing, channel-partner activation, and on-site manpower support at zero setup cost.
           </p>
         </div>
       </section>

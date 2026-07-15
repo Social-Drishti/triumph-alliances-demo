@@ -5,77 +5,65 @@ import { motion } from "motion/react";
 const milestones = [
   {
     year: "2022",
-    title: "Founding & First Mandate",
-    description: "Founded in Mumbai with 5 real estate professionals. Closed a 40-Cr residential project in Thane in under 60 days."
+    title: "Founding — From 4 People to a Mission",
+    description: "Founded in Mumbai with just 4 people. Mukesh Sharma, a hospitality and real estate veteran (formerly Anarock), set out to build a zero-setup-cost strategy house for developers."
   },
   {
     year: "2023",
-    title: "Channel Partner Network Launch",
-    description: "Launched the first structured broker network program, onboarding 1,200+ local partners with digital toolkits."
+    title: "First Major Revivals & CP Network Growth",
+    description: "Took on stalled and difficult projects across Mumbai, deploying aggressive CP activation and on-ground sales teams. Channel partner network expanded rapidly across Western Mumbai micromarkets."
   },
   {
     year: "2024",
-    title: "In-House Digital Performance Studio",
-    description: "Established our in-house studio, reducing cost-per-lead for partner developers by over 40%."
+    title: "1,090+ Cr Cumulative Sales Milestone",
+    description: "Crossed INR 1,090+ Cr in cumulative sales from 2022–2025. Monthly run-rate reached ₹60+ Cr with 3,500+ active channel partners mobilized."
   },
   {
     year: "2025",
-    title: "INR 1,000+ Cr Cumulative Sales",
-    description: "Crossed INR 1,090+ Cr in cumulative sales across South Mumbai, central belt, and Thane."
+    title: "In-House Creative & Digital Studio",
+    description: "Established an integrated in-house creative and digital marketing team, producing all collateral, campaign creatives, and brand materials internally for speed and consistency."
   },
   {
     year: "2026",
-    title: "The Strategy House Expansion",
-    description: "Evolved into Mumbai's premier Comprehensive Strategy House with end-to-end sales, marketing, and broker distributions."
+    title: "50+ Specialists Across Mumbai",
+    description: "Grew to 50+ specialists across sales, digital, creative, and admin divisions. Currently holds 6 active project mandates across Mumbai with a people-first, accountability-driven culture."
   }
 ];
 
 const team = [
   {
-    name: "Vinay Dangodra",
-    role: "Co-Founder & Head of Strategy",
+    name: "Mukesh Sharma",
+    role: "Founder & Director",
     image: "/stock_buildings.jpg",
-    bio: "Over 12 years of real estate strategy and sales closure excellence. Pioneered the zero setup cost model in Mumbai."
+    bio: "Hospitality and real estate veteran with deep industry experience (formerly Anarock). Founded Triumph Alliances with the vision of transforming delayed, disrupted, and difficult developments into celebrated sell-outs."
   },
   {
-    name: "Sneha Nair",
-    role: "Creative Director & Digital Lead",
+    name: "Rachel",
+    role: "VP — Marketing & Strategy",
     image: "/stock_buildings (3).jpg",
-    bio: "Expert performance marketer with deep experience creating high-converting luxury collateral."
-  },
-  {
-    name: "Rajesh K. Sharma",
-    role: "VP - Channel Partner Relations",
-    image: "/stock_buildings (4).jpg",
-    bio: "Manages our network of 3,500+ brokers, ensuring seamless orientation and rapid payouts."
-  },
-  {
-    name: "Ananya Deshmukh",
-    role: "Head of CRM & Site Operations",
-    image: "/stock_buildings (5).jpg",
-    bio: "Maintains elite conversion ratios on-site and coordinates end-to-end booking documentation."
+    bio: "Brings a diverse background spanning retail and consulting. Leads the marketing strategy division, overseeing digital campaigns, creative output, and brand positioning across all mandates."
   }
 ];
 
 const usps = [
   {
     title: "Zero Setup Cost",
-    desc: "We invest our own capital into the digital and collateral kit. You only pay when we close.",
+    desc: "No upfront fees or infrastructure costs. We invest our capital to run campaigns and deploy teams. Developers only pay on performance.",
     icon: ShieldCheck
   },
   {
-    title: "Unmatched Closing Velocity",
-    desc: "Specialized, trained sales closing managers ensure double-digit conversion ratios on site.",
+    title: "Rapid Project Turnarounds",
+    desc: "Proven track record of reviving stalled, delayed, and difficult projects into celebrated sell-outs — from 10-year stalemates to 14-month deadlocks.",
     icon: TrendingUp
   },
   {
-    title: "Massive Sourcing Force",
-    desc: "Over 3,500 active channel partners mobilized immediately through digitized inventory toolkits.",
+    title: "3,500+ Channel Partner Network",
+    desc: "Extensive broker network mobilized through targeted outreach, site familiarization, and transparent commission cycles across Mumbai micromarkets.",
     icon: Users
   },
   {
-    title: "Single Strategy House",
-    desc: "No more fragmented agencies. We handle everything end-to-end in-house.",
+    title: "Integrated Strategy House",
+    desc: "End-to-end services under one roof: sales teams, in-house creative, digital marketing, and channel partner activation. No fragmented agencies.",
     icon: Award
   }
 ];
@@ -118,10 +106,10 @@ export default function About() {
                 Aligning developer goals with absolute execution speed.
               </h2>
               <p className="text-xl sm:text-2xl text-gray-600 font-sans font-light leading-relaxed">
-                Founded in 2022, Triumph Alliances recognized a fundamental flaw: developers were navigating a disjointed maze of creative designers, lead generators, and brokers.
+                Founded in 2022, Triumph Alliances set out to solve a fundamental problem: developers were navigating a disjointed maze of creative designers, lead generators, and brokers with no single accountability.
               </p>
               <p className="text-xl sm:text-2xl text-gray-600 font-sans font-light leading-relaxed">
-                We consolidated everything under one roof — becoming Mumbai's first structured Strategy House for Developers.
+                We consolidated everything under one roof — becoming Mumbai's first structured Strategy House for Developers, integrating sales teams, creative and digital marketing, channel-partner activation, and manpower support at zero setup cost.
               </p>
             </div>
 
@@ -132,7 +120,7 @@ export default function About() {
                   <h4 className="font-accent font-medium text-xl sm:text-2xl text-brand-navy">Our Mission</h4>
                 </div>
                 <p className="text-base sm:text-lg text-gray-500 font-sans font-light leading-relaxed">
-                  Eliminate developer risk and accelerate inventory absorption through integrated digital assets, elite sales closures, and direct broker networks.
+                  Transform delayed, disrupted, and difficult developments into celebrated sell-outs through integrated sales execution, digital marketing, and direct broker networks — all at zero setup cost.
                 </p>
               </div>
 
@@ -142,7 +130,7 @@ export default function About() {
                   <h4 className="font-accent font-medium text-xl sm:text-2xl text-brand-navy">Our Vision</h4>
                 </div>
                 <p className="text-base sm:text-lg text-gray-500 font-sans font-light leading-relaxed">
-                  To be India's most trusted, performance-driven real estate distribution house, respected by builders, investors, and channel brokers.
+                  To be Mumbai's most trusted, performance-driven real estate strategy house — respected by developers, channel partners, and homebuyers alike.
                 </p>
               </div>
             </div>

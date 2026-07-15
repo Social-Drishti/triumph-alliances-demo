@@ -85,9 +85,9 @@ export default function Home({ setCurrentPage, openConsultation }: HomeProps) {
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.15 }}
-                  className="text-5xl sm:text-7xl lg:text-[6.5rem] font-accent font-light tracking-tight leading-[1] text-white"
+                  className="text-4xl sm:text-4xl lg:text-[4.5rem] font-accent font-light tracking-tight leading-[1] text-white"
                 >
-                  Direct <span className="text-white font-light block sm:inline">Developer Mandates</span>
+                  Mumbai's Fastest-Rising <span className="text-white font-light block sm:inline">Strategy House for Developers</span>
                 </motion.h1>
 
                 <motion.p
@@ -96,7 +96,7 @@ export default function Home({ setCurrentPage, openConsultation }: HomeProps) {
                   transition={{ duration: 0.6, delay: 0.3 }}
                   className="text-xl sm:text-2xl lg:text-3xl text-gray-200 max-w-4xl font-sans font-light tracking-wide leading-relaxed pt-2"
                 >
-                  Zero cost upfront. We invest our capital to run campaigns and activate 3,500+ premium brokers.
+                  Zero cost upfront. We transform delayed, disrupted, and difficult developments into celebrated sell-outs.
                 </motion.p>
               </div>
 
@@ -281,8 +281,8 @@ export default function Home({ setCurrentPage, openConsultation }: HomeProps) {
               <div className="mt-8 grid grid-cols-2 gap-8 text-left">
                 <div>
                   <span className="font-accent font-light text-6xl sm:text-7xl text-brand-teal">3,500+</span>
-                  <p className="text-base sm:text-lg text-gray-400 uppercase tracking-widest font-medium mt-1.5">Sourcing Brokers</p>
-                  <p className="text-base sm:text-lg text-gray-500 mt-2 leading-relaxed font-light">Fully aligned broker network across Mumbai lines.</p>
+                  <p className="text-base sm:text-lg text-gray-400 uppercase tracking-widest font-medium mt-1.5">Active Brokers</p>
+                  <p className="text-base sm:text-lg text-gray-500 mt-2 leading-relaxed font-light">Channel partners mobilized across Mumbai micromarkets.</p>
                 </div>
                 <div className="border-l border-gray-200/60 pl-6">
                   <span className="font-accent font-light text-6xl sm:text-7xl text-brand-gold">Zero</span>
@@ -565,7 +565,7 @@ export default function Home({ setCurrentPage, openConsultation }: HomeProps) {
             Accelerate Your Project Bookings
           </h2>
           <p className="text-xl sm:text-2xl text-gray-600 font-sans font-light max-w-3xl mx-auto leading-relaxed">
-            Let's design a high-speed liquidation plan for your properties in Mumbai. Zero upfront cost for developers.
+            Let's build a customized sales acceleration plan for your Mumbai project. Zero upfront cost for developers.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-4">
             <button

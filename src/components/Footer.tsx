@@ -109,19 +109,19 @@ export default function Footer({ setCurrentPage }: FooterProps) {
                 <span>
                   <strong>Mumbai HQ:</strong>
                   <br />
-                  804, Signature Business Park, Near Andheri Metro Station, Andheri East, Mumbai, Maharashtra 400069
+                  307, Auris Galleria, Link Road, Malad West, Mumbai
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-white shrink-0" />
-                <a href="tel:+919876543210" className="hover:text-white transition-colors">
-                  +91 98765 43210
+                <a href="tel:+919004643308" className="hover:text-white transition-colors">
+                  +91 90046 43308
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-white shrink-0" />
-                <a href="mailto:info@triumphalliances.com" className="hover:text-white transition-colors">
-                  info@triumphalliances.com
+                <a href="mailto:contact@triumphalliances.com" className="hover:text-white transition-colors">
+                  contact@triumphalliances.com
                 </a>
               </li>
             </ul>

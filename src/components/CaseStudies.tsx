@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { caseStudies } from "../data";
 
 export default function CaseStudies() {
-  const [selectedCase, setSelectedCase] = useState<string>("vivaan-heights");
+  const [selectedCase, setSelectedCase] = useState<string>("jogeshwari-project");
 
   return (
     <div className="w-full bg-white text-left">

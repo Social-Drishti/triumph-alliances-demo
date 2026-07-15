@@ -26,7 +26,7 @@ export default function App() {
   const [modalEmail, setModalEmail] = useState("");
   const [modalPhone, setModalPhone] = useState("");
   const [modalProject, setModalProject] = useState("");
-  const [modalService, setModalService] = useState("Direct Sales Mandate");
+  const [modalService, setModalService] = useState("End-to-End Sales Management (Zero Setup)");
 
   const handleModalSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -131,7 +131,7 @@ export default function App() {
                     </div>
                     <h4 className="font-accent font-bold text-lg text-brand-navy">Consultation Request Received!</h4>
                     <p className="text-xs text-gray-500 font-sans leading-relaxed max-w-sm mx-auto">
-                      Thank you. Your consultation request has been logged successfully. Vinay Dangodra's relationship managers will call you within 2 hours to organize your executive briefing.
+                      Thank you. Your consultation request has been logged successfully. Our relationship managers will call you within 2 hours to organize your executive briefing.
                     </p>
                   </div>
                 ) : (
@@ -167,7 +167,7 @@ export default function App() {
                         required
                         value={modalPhone}
                         onChange={(e) => setModalPhone(e.target.value)}
-                        placeholder="e.g. +91 9876543210"
+                        placeholder="e.g. +91 9000000000"
                         className="w-full px-4 py-2.5 bg-brand-offwhite border border-gray-200 rounded text-sm focus:outline-none focus:border-brand-navy"
                       />
                     </div>
@@ -190,10 +190,10 @@ export default function App() {
                         onChange={(e) => setModalService(e.target.value)}
                         className="w-full px-4 py-2.5 bg-brand-offwhite border border-gray-200 rounded text-sm focus:outline-none focus:border-brand-navy"
                       >
-                        <option>Direct Sales Mandate (Zero Setup)</option>
-                        <option>In-House Performance Studio Leads</option>
-                        <option>3,500+ Channel Broker Activation</option>
-                        <option>Dedicated Site Support Manpower</option>
+                        <option>End-to-End Sales Management (Zero Setup)</option>
+                        <option>In-House Creative & Digital Marketing</option>
+                        <option>Channel Partner Activation (3,500+ Brokers)</option>
+                        <option>Manpower & Site Support</option>
                       </select>
                     </div>
 
@@ -207,7 +207,7 @@ export default function App() {
                     
                     <div className="flex items-center justify-center space-x-1.5 text-xs text-gray-500 pt-2 font-medium">
                       <PhoneCall className="w-3.5 h-3.5 text-brand-teal" />
-                      <span>Confidential hotline: +91 98765 43210</span>
+                      <span>Confidential hotline: +91 90046 43308</span>
                     </div>
                   </form>
                 )}

@@ -102,7 +102,7 @@ export default function Careers() {
               </h2>
             </div>
             <p className="text-xl sm:text-2xl text-gray-600 font-sans font-light leading-relaxed max-w-xl lg:text-right">
-              We are actively hiring elite professionals to lead our expanding sales mandates across Mulund, Thane, and South Mumbai.
+              We are actively hiring elite professionals to lead our expanding sales mandates across Mumbai micromarkets.
             </p>
           </div>
 
