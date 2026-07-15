@@ -1,0 +1,6 @@
+{
+  "name": "Triumph Alliances",
+  "description": "Strategy House for Developers - Mumbai-based premium real estate sales & marketing agency website prototype.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
